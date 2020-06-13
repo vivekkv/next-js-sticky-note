@@ -1,0 +1,1 @@
+{"ast":null,"code":"","map":{"version":3,"sources":[],"names":[],"mappings":"","sourcesContent":["type ActionType = {\r\n    type: 'SUBMIT_LOGIN' | 'ON_INPUT_CHANGE' | 'SUCCESS_LOGIN',\r\n    payload: any\r\n}\r\n\r\nexport interface IUser {\r\n    username: string;\r\n    password: string\r\n}\r\n\r\nexport default ActionType;\r\n"]},"metadata":{},"sourceType":"module"}
